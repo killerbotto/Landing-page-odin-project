@@ -9,7 +9,7 @@
 }
 .logo{
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bold;
 }
 .header_links{
@@ -24,7 +24,7 @@
 .link, .small_text{
     font-weight: bold;
     color: #E5E7EB;
-    font-size: 35px;
+    font-size: 20px;
 }
 .left_stuff{
     display: flex;
@@ -40,14 +40,14 @@
     background-color: #3882F6;
     color: white;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
     border-radius: 10px;
-    width: 240px;
+    width: 120px;
     padding: 16px;
 }
 .big_text{
     color: #F9FAF8;
-    font-size: 80px;
+    font-size: 40px;
     font-weight:bolder;
 }
 .right_stuff{
@@ -70,7 +70,7 @@
     padding: 2.5% 0%;
 }
 .content_title{
-    font-size: 72px;
+    font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
@@ -88,15 +88,15 @@
     margin-bottom: 80px;
 }
 .inside_card{
-    width: 280px;
-    height: 280px;
+    width: 180px;
+    height: 180px;
     border: 5px solid #3882F6;
     border-radius: 18px;
     margin-bottom: 15px;
     margin-top: 80px;
 }
 .card_text{
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
 }
 .bottom_content{
@@ -106,7 +106,7 @@
     flex-direction: column;
 }
 .quote{
-    font-size: 60px;
+    font-size: 32px;
     font-weight: lighter;
     color: #1F2937;
     font-style: italic;
@@ -114,7 +114,7 @@
     text-align: center;
 }
 .author{
-    font-size: 35px;
+    font-size: 15px;
     font-weight: bold;
     text-align: right;
     margin: 30px 10% 5% 0%;
@@ -128,7 +128,7 @@
     background-color: #3882F6;
     display: flex;
     flex-direction: row;
-    padding: 5% 10%;
+    padding: 2.5% 5%;
     gap: 20%;
     border-radius: 25px;
     justify-content: space-between;
@@ -139,24 +139,24 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
 }
 .footer_title{
     color: #F9FAF8;
-    font-size: 55px;
+    font-size: 25px;
     font-weight: bold;
 }
 .footer_minor{
     color: #F9FAF8;
-    font-size: 35px;
+    font-size: 15px;
 
 }
 .footer{
     background-color: #1F2937;
     color: #F9FAF8;
-    font-size: 30px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
     font-weight: 500;
-    padding: 5% 0 2%;
+    padding: 3% 0 1%;
 }
