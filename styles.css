@@ -1,11 +1,12 @@
 *{
-    font-family: "Times New Roman";
+    font-family: "Helvetica";
 }
 .header, .header_content{
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
     flex-direction: row;
+    flex: 1;
 }
 .logo{
     color: #F9FAF8;
@@ -33,7 +34,8 @@
     justify-content: center;
     align-items:flex-start;
     gap: 10px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    flex: 0.25;
     flex-wrap: wrap;
 }
 .sign_up{
@@ -59,7 +61,8 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-grow: 3;
+    /* flex-grow: 3; */
+    flex: 0.75;
     font-size: 30px;
     margin-bottom: 90px;
 }
@@ -77,8 +80,8 @@
 .cards{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 10%;
+    justify-content: space-around;
+    /* gap: 10%; */
 }
 .grid{
     display: flex;
@@ -86,9 +89,13 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    padding: 0 20px 0 20px;
+    max-width: 200px;
+    /* background-color: #3ef638; */
 }
 .inside_card{
-    width: 180px;
+    /* width: 180px; */
+    width: 100%;
     height: 180px;
     border: 5px solid #3882F6;
     border-radius: 18px;
@@ -97,7 +104,7 @@
 }
 .card_text{
     font-size: 15px;
-    text-align: center;
+    /* text-align: center; */
 }
 .bottom_content{
     background-color: #E5E7EB;
@@ -122,14 +129,14 @@
 .top_footer{
     display: flex;
     justify-content: center;
-    padding: 5% 15%;
+    padding: 5% 10%;
 }
 .top_footer_back{
     background-color: #3882F6;
     display: flex;
     flex-direction: row;
     padding: 2.5% 5%;
-    gap: 20%;
+    gap: 1rem;
     border-radius: 25px;
     justify-content: space-between;
     align-items: center;
